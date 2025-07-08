@@ -30,9 +30,9 @@ Make sure you have the following installed:
 To generate a local domain SSL certificate using Docker, run:
 
 ```sh
-  docker run --rm -v $(pwd)/localhost-ssl:/app incodig/localhost-cert-generator:latest
+  docker run --rm -v $(pwd)/domain-local-ssl:/app incodig/domain-local-ssl-cert-generator:latest
 ```
-This will generate SSL certificates in the `certs/` directory under `localhost-ssl`.
+This will generate SSL certificates in the `certs/` directory under `domain-local-ssl`.
 
 
 ### **2. Customize your local domain**
