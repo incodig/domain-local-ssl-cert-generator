@@ -1,5 +1,5 @@
 # Docker Image Name
-IMAGE_NAME=incodig/localhost-cert-generator:latest
+IMAGE_NAME=incodig/domain-local-ssl-cert-generator:latest
 PWD := $(shell pwd)
 CERTS_DIR=certs
 CA_NAME=MyRootCA
