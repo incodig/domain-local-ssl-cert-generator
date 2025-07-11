@@ -89,3 +89,4 @@ endif
 
 # Generate certificates and install CA automatically
 all: run install-ca ## Generates image, certificates and installs CA on the system
+
